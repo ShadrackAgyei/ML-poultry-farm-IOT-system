@@ -1,0 +1,5 @@
+# Local credentials
+secrets.h
+
+# macOS
+.DS_Store
