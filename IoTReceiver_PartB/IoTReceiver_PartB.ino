@@ -13,8 +13,9 @@
 RF24 radio(4, 5); // CE, CSN
 
 // WiFi Configuration
-const char* ssid = "Shaddy001";
-const char* password = "1twoeight7";
+#include "secrets.h"  // WiFi credentials (copy secrets.example.h to secrets.h)
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 // Addresses for 4 nodes 
 const uint64_t addresses[] = {

@@ -10,8 +10,9 @@
 #include "tensorflow/lite/schema/schema_generated.h"
 
 
-const char* ssid = "Nana's A36";
-const char* password = "mq7thgkt6dfs7az";
+#include "secrets.h"  // WiFi credentials (copy secrets.example.h to secrets.h)
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 
 // PIN DEFINITIONS

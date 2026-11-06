@@ -179,3 +179,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **Shadrack Agyei Nti**  
 Computer Engineering · Ashesi University · 2026  
 [GitHub](https://github.com/ShadrackAgyei) · shadrack.nti@ashesi.edu.gh
+
+---
+
+## WiFi Credentials
+
+The gateway (`IoTReceiver_PartB`) and the ML controller (`iot_project_final1`) read WiFi details from a `secrets.h` file in their sketch folder. Copy `secrets.example.h` to `secrets.h` in each folder and fill in your network name and password. `secrets.h` is listed in `.gitignore`, so it is never committed.
